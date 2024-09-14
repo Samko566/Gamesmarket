@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gamesmarket.IntegrationTest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{B19C9F79-BA72-4F76-B2E6-461A1AF8CB61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamesmarket.Utilities", "Gamesmarket.Utilities\Gamesmarket.Utilities.csproj", "{2E407A1E-D905-4BE1-BBE9-6A96A217B469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gamesmarket.Utilities", "Gamesmarket.Utilities\Gamesmarket.Utilities.csproj", "{2E407A1E-D905-4BE1-BBE9-6A96A217B469}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{C93A85AB-2586-4D66-AA10-DB387CE48F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamesmarket.Interfaces", "Gamesmarket.Interfaces\Gamesmarket.Interfaces.csproj", "{99A51183-AC16-4C94-8107-D820A504B7EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gamesmarket.Interfaces", "Gamesmarket.Interfaces\Gamesmarket.Interfaces.csproj", "{99A51183-AC16-4C94-8107-D820A504B7EE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2C28BBA7-583C-4935-90C2-0D786B559999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{99A51183-AC16-4C94-8107-D820A504B7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99A51183-AC16-4C94-8107-D820A504B7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99A51183-AC16-4C94-8107-D820A504B7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C28BBA7-583C-4935-90C2-0D786B559999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C28BBA7-583C-4935-90C2-0D786B559999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C28BBA7-583C-4935-90C2-0D786B559999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C28BBA7-583C-4935-90C2-0D786B559999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

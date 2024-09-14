@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const API_URL = `https://localhost:7202/api`;
-export const API_URL_IMG = `https://localhost:7202/`;
+export const API_URL = `api`;
+export const API_URL_IMG = `/`;
 
 const $api = axios.create({
   withCredentials: true,

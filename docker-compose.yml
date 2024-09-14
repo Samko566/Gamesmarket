@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  backend:
+    image: ${DOCKER_REGISTRY-}gamesmarket
+    build:
+      context: .
+      dockerfile: Gamesmarket/Dockerfile
+
+  client:
+    image: client
+    build:
+      context: ./Gamesmarket.ReactWeb
+      dockerfile: Dockerfile
+
+  proxy:
+    image: nginx:mainline  
