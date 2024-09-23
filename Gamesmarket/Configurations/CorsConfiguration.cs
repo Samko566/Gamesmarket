@@ -6,7 +6,7 @@
         {
             services.AddCors(o => o.AddPolicy("frontend", opt =>
             {
-                opt.WithOrigins("http://localhost:3000")
+                opt.WithOrigins("http://localhost:3000", "http://localhost")
                    .AllowAnyHeader()
                    .AllowAnyMethod()
                    .AllowCredentials();

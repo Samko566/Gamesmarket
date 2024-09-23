@@ -1,6 +1,6 @@
 # Gamesmarket
 ## Testing docker - backend(.net + mssqp) + client(react(vite)) + proxy(nginx)
-Problem with running front and back together with nginx redirect
+Problem with displaying images on the frontend
 
 ## Running the Project with docker.
 
@@ -16,7 +16,9 @@ Problem with running front and back together with nginx redirect
    ```sh
    docker-compose up -d
     ```
-This will start the server at https://localhost:5000
+This will start the server at 5000 port and backend can be tested at http://localhost:5000/swagger
+
+The entire project with all functionality can be viewed at http://localhost
 
 2. Run the client:
 
@@ -25,8 +27,8 @@ This will start the server at https://localhost:5000
    docker build -t client .
    ```
    ```sh
-   docker run -dp 5001:3000 client
+   docker run -dp 5002:3000 client
    ```
-This will start the frontend at https://localhost:5001
+This will start the frontend for testing at http://localhost:5002
 
 3. Data to log in as admin user: Email - admin@gmail.com Password - Qwe!23
