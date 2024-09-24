@@ -30,7 +30,7 @@ services:
       context: ./Gamesmarket.ReactWeb
       dockerfile: Dockerfile
     ports:
-      - "5002:3000"
+      - "5001:3000"
 
   proxy:
     image: nginx:mainline
